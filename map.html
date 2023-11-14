@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="mapbody" lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Map</title>
@@ -10,11 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css"> 
-  <link rel="stylesheet" href="css/style.css">
-  <script async type="text/javascript" src="js/myjs.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1lJekyxiztYI3OSdqU_bbVs5lDricbTQ&callback=initMap"></script> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1lJekyxiztYI3OSdqU_bbVs5lDricbTQ&calledback=initMap"></script> 
+  <script asyncsrc type="text/javascript" src="js/myjs.js"></script>
 </head>
-<body id="mapbody">
+<body class="mapbody">
 <nav id="main-navbar">
   <div id="navbar-container">
     <ul>
@@ -24,6 +24,9 @@
 	  <li><a href="map.html">Map</a></li>
     </ul>
   </div>
-  <div id="map"></div>
 </nav>
+<h1 id="title">My Map</h1>
+<div id="wrapper">
+  <div id="canvas"></div>
+</div>
 </body>
