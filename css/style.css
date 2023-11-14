@@ -249,9 +249,16 @@ nav#main-navbar ul li a:hover {
   color: black;
 }
 
+#mapbody {
+  width: 100%;
+  height: 100%;
+}
+
 #map {
   height: 100%;
-  width: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
