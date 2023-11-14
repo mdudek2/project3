@@ -22,9 +22,11 @@ body {
 }
 
 .mapbody {
+  background-image: url("../images/starbackground.jpg");
   height: 100%;
   margin: 0;
   padding: 0;
+  color: gray;
 }
 
 h1 {
@@ -256,18 +258,20 @@ nav#main-navbar ul li a:hover {
 }
 
 #wrapper {
-  width: 850px;
+  width: 800px;
   height: 600px;
-  background-color: #c00;
+  background-color: gray;
   margin:0 auto;
   overflow: hidden;
 }
 #canvas {
   width: 700px;
   height: 500px;
-  background-color: #ccc;
-  margin: 30px auto;
+  background-color: gray;
+  margin: 45px auto;
 }
 
-
+#maptitle {
+  color: gray;
+}
 

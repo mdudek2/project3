@@ -1,13 +1,14 @@
 function init(){
-  //alert('it works');
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+  var myLocation = new google.maps.LatLng(41.8664, -87.6068);
+  
   var mapOptions = {
-  center: myLocation,
-  zoom: 18,
-  mapTypeId: google.maps.MapTypeId.SATELLITE,
-  mapTypeControlOptions: {
-  position: google.maps.ControlPosition.BOTTOM_CENTER
+    center: myLocation,
+    zoom: 18,
+    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    
+	mapTypeControlOptions: {
+      position: google.maps.ControlPosition.BOTTOM_CENTER
   }
 };
 
@@ -16,11 +17,11 @@ var myMap = new google.maps.Map(el, mapOptions);
 var marker = new google.maps.Marker({
   position: myLocation,
   map: myMap,
-  animation: google.maps.Animation.BOUNCE,
-  icon: '../images/icon.png'
+  animation: google.maps.Animation.DROP,
+  icon: 'images/icon.jpg'
 });
 
-var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+var contentString = '<h1>Adler Planetarium</h1><p>The Adler Planetarium is a museum that is located in Chicago. It is dedicated to showing exhibits about space.</p>';
 
 var infowindow = new google.maps.InfoWindow ({
   content: contentString
