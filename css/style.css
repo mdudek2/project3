@@ -236,8 +236,8 @@ nav#main-navbar ul {
 
 nav#main-navbar ul li {
   float: left;
-  margin-left: 40px;
-  margin-right: 40px; 
+  margin: 0;
+  padding: 0;
 }
 
 nav#main-navbar ul li a {
@@ -248,10 +248,16 @@ nav#main-navbar ul li a {
   text-decoration: underline white;
   text-align: center;
   text-decoration: none;
-  width: 100%;
   padding: 20px 20px 20px 20px;
-  border-radius: 4px;
+}
+
+nav#main-navbar ul
+{
   width: 100%;
+}
+
+nav#main-navbar li {
+  width: 25%;
 }
 
 nav#main-navbar ul li a:hover {
