@@ -288,38 +288,6 @@ nav#main-navbar ul li a:hover {
   text-align: center;
 }
 
-@media all and (min-width: 1200px) {
-  
-  .indexbody {
-    width: 100%;
-  }
-  
-  #resumemain {
-    width: 50%;
-    position: relative;
-    top: 0;
-    left: 25%;
-    outline: 3px solid black;
-    margin-top: 150px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 24px;
-    text-align: center;
-	padding: 20px;
-  }
-  
-  #title {
-    font-size: 64px;
-  }
-  
-  h2 {
-    font-size: 48px;
-  }
-  
-  h3 {
-	font-size: 36px;
-  }
-}
-
 @media all and (min-width: 768px) {
 	
   .indexbody {
@@ -349,6 +317,38 @@ nav#main-navbar ul li a:hover {
   
   h3 {
 	font-size: 24x;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  
+  .indexbody {
+    width: 100%;
+  }
+  
+  #resumemain {
+    width: 50%;
+    position: relative;
+    top: 0;
+    left: 25%;
+    outline: 3px solid black;
+    margin-top: 150px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: center;
+	padding: 20px;
+  }
+  
+  #title {
+    font-size: 64px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+	font-size: 36px;
   }
 }
 	
