@@ -283,7 +283,7 @@ nav#main-navbar ul li a:hover {
   color: gray;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 1200px) {
   
   .indexbody {
     width: 100%;
@@ -314,3 +314,38 @@ nav#main-navbar ul li a:hover {
 	font-size: 36px;
   }
 }
+
+@media all and (min-width: 768px) {
+	
+  .indexbody {
+    width: 100%;
+  }
+  
+  #resumemain {
+    width: 50%;
+    position: relative;
+    top: 0;
+    left: 25%;
+    outline: 3px solid black;
+    margin-top: 150px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    text-align: center;
+	padding: 20px;
+  }
+  
+  #title {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+	font-size: 24x;
+  }
+}
+	
+	
+	
