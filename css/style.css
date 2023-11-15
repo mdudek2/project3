@@ -111,11 +111,11 @@ ul {
 }
 
 #mainbodyg {
-  width: 35%;
+  width: 30%;
   outline: 3px solid gold;
   position: relative;
   top: 25px;
-  left: 125px;
+  left: 14%;
   margin: auto;
   display: block;
   font-family: 'Space Grotesk', sans-serif;
@@ -129,10 +129,10 @@ ul {
 }
 
 #imagerg {
-  width: 25%;
+  width: 20%;
   position: relative;
   top: 200px;
-  left: 200px;
+  left: 21%;
   margin: auto;
   display: block;
   outline: 3px solid blue;
@@ -147,10 +147,10 @@ ul {
 }
 
 #imagelg {
-  width: 25%;
+  width: 20%;
   position: relative;
   top: 200px;
-  left: 50px;
+  left: 7%;
   margin: auto;
   display: block;
   outline: 3px solid red;
@@ -257,7 +257,7 @@ nav#main-navbar ul
 }
 
 nav#main-navbar li {
-  width: 25%;
+  width: 25%; 
 }
 
 nav#main-navbar ul li a:hover {
